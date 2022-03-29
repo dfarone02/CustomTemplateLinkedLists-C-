@@ -9,7 +9,7 @@ list and applies operations read from the input file.
 
 ## Requirements:
 
-split into four files, the requirements for which are specified below:
+### split into four files, the requirements for which are specified below:
   
   a) The Rectangle class – This class represents an individual rectangle
     
@@ -41,7 +41,7 @@ split into four files, the requirements for which are specified below:
      TSLLNode *next;
      };
 
-Implementation for functions required by the Project 2 header file. Observe the following:
+### Implementation for functions required by the Project 2 header file. Observe the following:
 
   i. insertInOrder – Adds each custom object to the list in ascending area order. If there are objects in
   the list with the same value, the newly object must come after the one already in the list. Rectangle
@@ -63,7 +63,7 @@ Implementation for functions required by the Project 2 header file. Observe the 
   iv. clearList – This function must remove all nodes from the list. It should print the word Clearing
   followed by the custom object being deleted. This function is called by the class destructor.
 
-A driver, or client, file
+## A driver, or client, file
 
    named proj3.cpp
 
